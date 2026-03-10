@@ -61,7 +61,7 @@ export default function Header() {
           <div className={styles.navLinks}>
             <Link href="/stores" className={styles.navLink}>Stores</Link>
             <Link href="/categories" className={styles.navLink}>Categories</Link>
-            <Link href="/" className={`${styles.navLink} ${styles.navLinkBadge}`}>
+            <Link href="/march-sales" className={`${styles.navLink} ${styles.navLinkBadge}`}>
               March Sales
               <span className={styles.navBadge}>New</span>
             </Link>
@@ -80,7 +80,7 @@ export default function Header() {
       <div className={`${styles.mobileNav} ${mobileOpen ? styles.open : ''}`}>
         <Link href="/stores" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Stores</Link>
         <Link href="/categories" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Categories</Link>
-        <Link href="/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>March Sales</Link>
+        <Link href="/march-sales" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>March Sales</Link>
         <Link href="/indulge" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Indulge</Link>
         <Link href="/deals" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Deals Of The Day</Link>
         <Link href="/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Submit Coupon</Link>

@@ -1,0 +1,222 @@
+.page {
+    min-height: 100vh;
+    padding-bottom: var(--space-3xl);
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+.hero {
+    background: linear-gradient(135deg, #e53935 0%, #c62828 40%, #b71c1c 100%);
+    border-radius: var(--radius-xl);
+    padding: var(--space-3xl) var(--space-2xl);
+    margin-top: var(--space-lg);
+    text-align: center;
+    color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '🎉';
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    font-size: 3rem;
+    opacity: 0.15;
+}
+
+.hero::after {
+    content: '🛒';
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+    font-size: 3rem;
+    opacity: 0.15;
+}
+
+.heroTag {
+    display: inline-block;
+    padding: 6px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: var(--space-lg);
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: var(--space-sm);
+}
+
+.heroSub {
+    font-size: 1rem;
+    opacity: 0.85;
+    max-width: 550px;
+    margin: 0 auto;
+    line-height: 1.7;
+}
+
+.section {
+    margin-top: var(--space-2xl);
+}
+
+/* Countdown */
+.countdownGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--space-md);
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: var(--space-xl);
+}
+
+.countdownItem {
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    text-align: center;
+}
+
+.countdownValue {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.countdownLabel {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+/* Deals Grid */
+.dealsGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--space-md);
+}
+
+.dealCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    overflow: hidden;
+    border: 1px solid var(--color-border-light);
+    transition: all var(--transition-base);
+    cursor: pointer;
+}
+
+.dealCard:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: transparent;
+}
+
+.dealBanner {
+    padding: var(--space-lg);
+    color: white;
+    text-align: center;
+}
+
+.dealDiscount {
+    font-family: var(--font-heading);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+
+.dealLabel {
+    font-size: 0.75rem;
+    opacity: 0.8;
+    margin-top: 2px;
+}
+
+.dealBody {
+    padding: var(--space-lg);
+}
+
+.dealStore {
+    font-size: 0.88rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin-bottom: 4px;
+}
+
+.dealDesc {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: var(--space-md);
+}
+
+.dealBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 0.82rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    border: 2px dashed var(--color-success);
+    background: var(--color-success-light);
+    color: var(--color-success-dark);
+}
+
+.dealBtn:hover {
+    background: var(--color-success);
+    color: white;
+}
+
+/* Categories */
+.catTags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--space-sm);
+    justify-content: center;
+}
+
+.catTag {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    padding: 10px 20px;
+    background: var(--color-bg-white);
+    border: 1px solid var(--color-border-light);
+    border-radius: var(--radius-full);
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--color-text);
+    transition: all var(--transition-base);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.catTag:hover {
+    background: #e53935;
+    color: white;
+    border-color: #e53935;
+    transform: translateY(-2px);
+}
+
+@media (max-width: 768px) {
+    .heroTitle {
+        font-size: 2rem;
+    }
+
+    .countdownGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .dealsGrid {
+        grid-template-columns: 1fr;
+    }
+}
