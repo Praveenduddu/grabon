@@ -1,0 +1,154 @@
+.section {
+    padding: var(--space-2xl) 0;
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+    gap: var(--space-md);
+}
+
+.featured {
+    grid-column: span 2;
+    grid-row: span 2;
+    background: linear-gradient(135deg, #673DE6 0%, #4a00e0 100%);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    transition: all var(--transition-base);
+    cursor: pointer;
+}
+
+.featured:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 12px 30px rgba(103, 61, 230, 0.3);
+}
+
+.featuredLabel {
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    opacity: 0.8;
+    margin-bottom: var(--space-sm);
+}
+
+.featuredName {
+    font-family: var(--font-heading);
+    font-size: 1.4rem;
+    font-weight: 800;
+    margin-bottom: var(--space-xs);
+}
+
+.featuredCount {
+    font-size: 0.8rem;
+    opacity: 0.7;
+    margin-bottom: var(--space-lg);
+}
+
+.featuredBtn {
+    display: inline-flex;
+    padding: 8px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: var(--radius-full);
+    font-size: 0.8rem;
+    font-weight: 600;
+    width: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    color: white;
+}
+
+.featuredBtn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.storeCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-md);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: var(--space-sm);
+    border: 1px solid var(--color-border-light);
+    transition: all var(--transition-base);
+    cursor: pointer;
+    min-height: 120px;
+}
+
+.storeCard:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: transparent;
+}
+
+.storeLogo {
+    font-size: 2rem;
+    width: 48px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-md);
+}
+
+.storeName {
+    font-size: 0.82rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.storeCoupons {
+    font-size: 0.72rem;
+    color: var(--color-text-secondary);
+}
+
+.viewAll {
+    margin-top: var(--space-lg);
+    text-align: center;
+}
+
+.viewAllLink {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--space-sm);
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 0.9rem;
+    padding: 10px 24px;
+    border-radius: var(--radius-full);
+    border: 2px solid var(--color-primary);
+    transition: all var(--transition-base);
+}
+
+.viewAllLink:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    }
+
+    .featured {
+        grid-column: span 2;
+    }
+
+    .featuredName {
+        font-size: 1.1rem;
+    }
+}

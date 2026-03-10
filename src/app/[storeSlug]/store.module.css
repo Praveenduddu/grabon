@@ -1,0 +1,394 @@
+.page {
+    min-height: 100vh;
+    padding-bottom: var(--space-3xl);
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+.notFound {
+    text-align: center;
+    padding: var(--space-4xl) 0;
+}
+
+.notFound h1 {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    margin-bottom: var(--space-md);
+}
+
+.notFound p {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xl);
+}
+
+/* Store Header */
+.storeHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    padding: var(--space-xl);
+    margin-top: var(--space-lg);
+    background: var(--color-bg-white);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+    box-shadow: var(--shadow-sm);
+}
+
+.storeLogoWrap {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-section);
+    border-radius: var(--radius-lg);
+    font-size: 2.5rem;
+    flex-shrink: 0;
+    border: 2px solid var(--color-border-light);
+}
+
+.storeLogo {
+    font-size: 2.5rem;
+}
+
+.storeInfo {
+    flex: 1;
+}
+
+.storeName {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-text);
+    margin-bottom: var(--space-sm);
+}
+
+.storeMeta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-lg);
+    flex-wrap: wrap;
+}
+
+.storeMetaItem {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.storeMetaItem strong {
+    color: var(--color-text);
+}
+
+.verifiedDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--color-success);
+}
+
+/* Breadcrumb */
+.breadcrumb {
+    padding: var(--space-md) 0;
+    font-size: 0.82rem;
+    color: var(--color-text-light);
+}
+
+.breadcrumb a {
+    color: var(--color-text-secondary);
+}
+
+.breadcrumb a:hover {
+    color: var(--color-primary);
+}
+
+.breadcrumb span {
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+/* Tabs */
+.tabs {
+    display: flex;
+    gap: var(--space-xs);
+    border-bottom: 2px solid var(--color-border-light);
+    margin-bottom: var(--space-lg);
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+.tabs::-webkit-scrollbar {
+    display: none;
+}
+
+.tab {
+    padding: 10px 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    border: none;
+    background: none;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -2px;
+    transition: all var(--transition-fast);
+    white-space: nowrap;
+}
+
+.tab:hover {
+    color: var(--color-primary);
+}
+
+.tabActive {
+    color: var(--color-primary);
+    border-bottom-color: var(--color-primary);
+}
+
+/* Coupon List */
+.couponList {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.couponCard {
+    display: grid;
+    grid-template-columns: 100px 1fr 160px;
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--color-border-light);
+    overflow: hidden;
+    transition: all var(--transition-base);
+}
+
+.couponCard:hover {
+    box-shadow: var(--shadow-md);
+    border-color: transparent;
+}
+
+.couponLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-bg-section);
+    border-right: 2px dashed var(--color-border);
+    padding: var(--space-md);
+}
+
+.couponDiscount {
+    font-family: var(--font-heading);
+    font-size: 0.9rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    text-align: center;
+    line-height: 1.3;
+}
+
+.couponCenter {
+    padding: var(--space-lg);
+    min-width: 0;
+}
+
+.couponTag {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: var(--radius-full);
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: white;
+}
+
+.couponTitle {
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 6px;
+    line-height: 1.4;
+}
+
+.couponDesc {
+    font-size: 0.82rem;
+    color: var(--color-text-secondary);
+    line-height: 1.5;
+    margin-bottom: var(--space-sm);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.couponMeta {
+    display: flex;
+    align-items: center;
+    gap: var(--space-md);
+    flex-wrap: wrap;
+}
+
+.verified {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 0.78rem;
+    font-weight: 600;
+    color: var(--color-success-dark);
+}
+
+.verifiedIcon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 16px;
+    height: 16px;
+    background: var(--color-success);
+    color: white;
+    border-radius: 50%;
+    font-size: 0.55rem;
+}
+
+.uses {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+}
+
+.comments {
+    font-size: 0.78rem;
+    color: var(--color-text-light);
+}
+
+.expiry {
+    margin-top: 6px;
+    font-size: 0.72rem;
+    color: var(--color-text-light);
+}
+
+.couponRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--space-md);
+    gap: var(--space-sm);
+    border-left: 1px solid var(--color-border-light);
+}
+
+.actionBtn {
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    font-weight: 700;
+    font-size: 0.78rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    white-space: nowrap;
+    border: 2px dashed;
+    letter-spacing: 0.5px;
+}
+
+.actionBtnOffer {
+    background: var(--color-success-light);
+    color: var(--color-success-dark);
+    border-color: var(--color-success);
+}
+
+.actionBtnOffer:hover {
+    background: var(--color-success);
+    color: white;
+}
+
+.actionBtnCode {
+    background: #fff3e0;
+    color: #e65100;
+    border-color: #FF9800;
+    position: relative;
+}
+
+.actionBtnCode:hover {
+    background: #FF9800;
+    color: white;
+}
+
+.codeHint {
+    font-size: 0.68rem;
+    color: var(--color-text-light);
+}
+
+/* Similar Stores */
+.similar {
+    margin-top: var(--space-3xl);
+}
+
+.similarGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: var(--space-md);
+}
+
+.similarCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    text-align: center;
+    border: 1px solid var(--color-border-light);
+    transition: all var(--transition-base);
+}
+
+.similarCard:hover {
+    box-shadow: var(--shadow-lg);
+    transform: translateY(-3px);
+    border-color: transparent;
+    color: inherit;
+}
+
+.similarLogo {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: var(--space-sm);
+}
+
+.similarName {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 2px;
+}
+
+.similarCount {
+    font-size: 0.72rem;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+    .couponCard {
+        grid-template-columns: 1fr;
+    }
+
+    .couponLeft {
+        border-right: none;
+        border-bottom: 2px dashed var(--color-border);
+        padding: var(--space-sm);
+    }
+
+    .couponRight {
+        border-left: none;
+        border-top: 1px solid var(--color-border-light);
+        flex-direction: row;
+    }
+
+    .storeHeader {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .storeMeta {
+        justify-content: center;
+    }
+}

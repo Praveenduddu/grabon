@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "name": "Flight",
+        "slug": "flight-coupons",
+        "icon": "✈️",
+        "coupons": 494,
+        "offers": 797
+    },
+    {
+        "id": 2,
+        "name": "Fashion",
+        "slug": "fashion-coupons",
+        "icon": "👗",
+        "coupons": 1264,
+        "offers": 5013
+    },
+    {
+        "id": 3,
+        "name": "Electronics",
+        "slug": "electronics-coupons",
+        "icon": "📱",
+        "coupons": 329,
+        "offers": 1942
+    },
+    {
+        "id": 4,
+        "name": "Beauty",
+        "slug": "beauty-coupons",
+        "icon": "💄",
+        "coupons": 1274,
+        "offers": 4415
+    },
+    {
+        "id": 5,
+        "name": "Food",
+        "slug": "food-coupons",
+        "icon": "🍔",
+        "coupons": 580,
+        "offers": 2100
+    },
+    {
+        "id": 6,
+        "name": "Medicines",
+        "slug": "medicines-coupons",
+        "icon": "💊",
+        "coupons": 210,
+        "offers": 800
+    },
+    {
+        "id": 7,
+        "name": "OTT",
+        "slug": "ott-coupons",
+        "icon": "📺",
+        "coupons": 145,
+        "offers": 520
+    },
+    {
+        "id": 8,
+        "name": "AI Software",
+        "slug": "ai-software-coupons",
+        "icon": "🤖",
+        "coupons": 98,
+        "offers": 340
+    },
+    {
+        "id": 9,
+        "name": "Hosting",
+        "slug": "hosting-coupons",
+        "icon": "🌐",
+        "coupons": 320,
+        "offers": 1100
+    },
+    {
+        "id": 10,
+        "name": "Bus",
+        "slug": "bus-coupons",
+        "icon": "🚌",
+        "coupons": 180,
+        "offers": 650
+    },
+    {
+        "id": 11,
+        "name": "Train Tickets",
+        "slug": "train-tickets-coupons",
+        "icon": "🚂",
+        "coupons": 95,
+        "offers": 310
+    },
+    {
+        "id": 12,
+        "name": "Eyewear",
+        "slug": "eyewear-coupons",
+        "icon": "👓",
+        "coupons": 120,
+        "offers": 450
+    },
+    {
+        "id": 13,
+        "name": "Education",
+        "slug": "education-coupons",
+        "icon": "📚",
+        "coupons": 250,
+        "offers": 900
+    },
+    {
+        "id": 14,
+        "name": "Pizza",
+        "slug": "pizza-coupons",
+        "icon": "🍕",
+        "coupons": 160,
+        "offers": 580
+    },
+    {
+        "id": 15,
+        "name": "Entertainment",
+        "slug": "entertainment-coupons",
+        "icon": "🎬",
+        "coupons": 200,
+        "offers": 720
+    },
+    {
+        "id": 16,
+        "name": "Hotel",
+        "slug": "hotel-coupons",
+        "icon": "🏨",
+        "coupons": 380,
+        "offers": 1400
+    },
+    {
+        "id": 17,
+        "name": "Jewellery",
+        "slug": "jewellery-coupons",
+        "icon": "💎",
+        "coupons": 175,
+        "offers": 620
+    },
+    {
+        "id": 18,
+        "name": "Travel",
+        "slug": "travel-coupons",
+        "icon": "🧳",
+        "coupons": 890,
+        "offers": 3200
+    },
+    {
+        "id": 19,
+        "name": "Furniture",
+        "slug": "furniture-coupons",
+        "icon": "🪑",
+        "coupons": 140,
+        "offers": 500
+    },
+    {
+        "id": 20,
+        "name": "Footwear",
+        "slug": "footwear-coupons",
+        "icon": "👟",
+        "coupons": 310,
+        "offers": 1150
+    },
+    {
+        "id": 21,
+        "name": "Kitchen Appliances",
+        "slug": "kitchen-appliances-coupons",
+        "icon": "🍳",
+        "coupons": 165,
+        "offers": 590
+    },
+    {
+        "id": 22,
+        "name": "Laptops",
+        "slug": "laptops-coupons",
+        "icon": "💻",
+        "coupons": 130,
+        "offers": 470
+    },
+    {
+        "id": 23,
+        "name": "Lingerie",
+        "slug": "lingerie-coupons",
+        "icon": "👙",
+        "coupons": 95,
+        "offers": 340
+    },
+    {
+        "id": 24,
+        "name": "Gifts & Flowers",
+        "slug": "gifts-and-flowers-coupons",
+        "icon": "🎁",
+        "coupons": 110,
+        "offers": 400
+    },
+    {
+        "id": 25,
+        "name": "Kids Lifestyle",
+        "slug": "kids-lifestyle-coupons",
+        "icon": "🧒",
+        "coupons": 180,
+        "offers": 650
+    },
+    {
+        "id": 26,
+        "name": "SAAS",
+        "slug": "saas-coupons",
+        "icon": "☁️",
+        "coupons": 85,
+        "offers": 300
+    },
+    {
+        "id": 27,
+        "name": "Services",
+        "slug": "services-coupons",
+        "icon": "🔧",
+        "coupons": 200,
+        "offers": 720
+    },
+    {
+        "id": 28,
+        "name": "Protein Supplements",
+        "slug": "protein-supplements-coupons",
+        "icon": "💪",
+        "coupons": 95,
+        "offers": 340
+    },
+    {
+        "id": 29,
+        "name": "Recharge",
+        "slug": "recharge-coupons",
+        "icon": "📶",
+        "coupons": 220,
+        "offers": 800
+    },
+    {
+        "id": 30,
+        "name": "Software & Antivirus",
+        "slug": "software-and-antivirus-coupons",
+        "icon": "🛡️",
+        "coupons": 150,
+        "offers": 540
+    }
+]

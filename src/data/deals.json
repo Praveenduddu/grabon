@@ -1,0 +1,167 @@
+[
+    {
+        "id": 1,
+        "store": "Flipkart",
+        "storeColor": "#2874F0",
+        "product": "Airdopes 181 Pro, 100H Battery, ENx, LED Display",
+        "price": 999,
+        "originalPrice": 4990,
+        "discount": 80,
+        "image": "🎧",
+        "category": "Electronics"
+    },
+    {
+        "id": 2,
+        "store": "Amazon",
+        "storeColor": "#FF9900",
+        "product": "Ergonomic Foldable Portable Laptop Stand – 6 Adjustable Angles",
+        "price": 348,
+        "originalPrice": 1999,
+        "discount": 83,
+        "image": "💻",
+        "category": "Electronics"
+    },
+    {
+        "id": 3,
+        "store": "Myntra",
+        "storeColor": "#FF3F6C",
+        "product": "Ethnic Motifs Printed Pure Cotton A-Line Kurta",
+        "price": 637,
+        "originalPrice": 3999,
+        "discount": 84,
+        "image": "👗",
+        "category": "Fashion"
+    },
+    {
+        "id": 4,
+        "store": "AJIO",
+        "storeColor": "#3E3E3E",
+        "product": "Checked Shirt with Patch Pocket – Slim Fit",
+        "price": 525,
+        "originalPrice": 1749,
+        "discount": 70,
+        "image": "👔",
+        "category": "Fashion"
+    },
+    {
+        "id": 5,
+        "store": "Amazon",
+        "storeColor": "#FF9900",
+        "product": "Smart Watch with Heart Rate Monitor & SpO2 Tracking",
+        "price": 1299,
+        "originalPrice": 7999,
+        "discount": 84,
+        "image": "⌚",
+        "category": "Electronics"
+    },
+    {
+        "id": 6,
+        "store": "Flipkart",
+        "storeColor": "#2874F0",
+        "product": "64GB microSD Memory Card – Class 10 UHS-I",
+        "price": 399,
+        "originalPrice": 1999,
+        "discount": 80,
+        "image": "💾",
+        "category": "Electronics"
+    },
+    {
+        "id": 7,
+        "store": "Myntra",
+        "storeColor": "#FF3F6C",
+        "product": "Men's Running Shoes – Lightweight Mesh Upper",
+        "price": 899,
+        "originalPrice": 3999,
+        "discount": 78,
+        "image": "👟",
+        "category": "Fashion"
+    },
+    {
+        "id": 8,
+        "store": "Croma",
+        "storeColor": "#00A550",
+        "product": "43-inch Full HD Smart LED TV – Built-in WiFi",
+        "price": 14999,
+        "originalPrice": 34990,
+        "discount": 57,
+        "image": "📺",
+        "category": "Electronics"
+    },
+    {
+        "id": 9,
+        "store": "Amazon",
+        "storeColor": "#FF9900",
+        "product": "Wireless Bluetooth Neckband – 24H Battery Life",
+        "price": 449,
+        "originalPrice": 2999,
+        "discount": 85,
+        "image": "🎵",
+        "category": "Electronics"
+    },
+    {
+        "id": 10,
+        "store": "AJIO",
+        "storeColor": "#3E3E3E",
+        "product": "Women's Printed Georgette Saree with Blouse Piece",
+        "price": 799,
+        "originalPrice": 4599,
+        "discount": 83,
+        "image": "👘",
+        "category": "Fashion"
+    },
+    {
+        "id": 11,
+        "store": "Flipkart",
+        "storeColor": "#2874F0",
+        "product": "Portable Bluetooth Speaker – 12W Output, IPX5",
+        "price": 799,
+        "originalPrice": 3999,
+        "discount": 80,
+        "image": "🔊",
+        "category": "Electronics"
+    },
+    {
+        "id": 12,
+        "store": "Myntra",
+        "storeColor": "#FF3F6C",
+        "product": "Polarized Wayfarer Sunglasses – UV Protection",
+        "price": 499,
+        "originalPrice": 2490,
+        "discount": 80,
+        "image": "🕶️",
+        "category": "Fashion"
+    },
+    {
+        "id": 13,
+        "store": "Amazon",
+        "storeColor": "#FF9900",
+        "product": "Stainless Steel Insulated Water Bottle – 1 Litre",
+        "price": 299,
+        "originalPrice": 1299,
+        "discount": 77,
+        "image": "🫗",
+        "category": "Home"
+    },
+    {
+        "id": 14,
+        "store": "boAt",
+        "storeColor": "#E50000",
+        "product": "Over-Ear Wireless Headphones – ANC, 40mm Drivers",
+        "price": 1499,
+        "originalPrice": 7990,
+        "discount": 81,
+        "image": "🎧",
+        "category": "Electronics"
+    },
+    {
+        "id": 15,
+        "store": "Samsung",
+        "storeColor": "#1428A0",
+        "product": "Galaxy Buds FE – Active Noise Cancellation",
+        "price": 4999,
+        "originalPrice": 9999,
+        "discount": 50,
+        "image": "🎶",
+        "category": "Electronics"
+    }
+]
