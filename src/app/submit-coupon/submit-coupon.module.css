@@ -1,0 +1,248 @@
+.page {
+    min-height: 100vh;
+    padding-bottom: var(--space-3xl);
+}
+
+.inner {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: 0 var(--space-lg);
+}
+
+.hero {
+    background: linear-gradient(135deg, #10b981 0%, #059669 50%, #047857 100%);
+    border-radius: var(--radius-xl);
+    padding: var(--space-2xl);
+    margin-top: var(--space-lg);
+    text-align: center;
+    color: white;
+}
+
+.heroTag {
+    display: inline-block;
+    padding: 6px 20px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--radius-full);
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: var(--space-lg);
+}
+
+.heroTitle {
+    font-family: var(--font-heading);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: var(--space-sm);
+}
+
+.heroSub {
+    font-size: 0.95rem;
+    opacity: 0.85;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: var(--space-xl);
+    margin-top: var(--space-xl);
+    align-items: start;
+}
+
+.formCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-xl);
+    border: 1px solid var(--color-border-light);
+}
+
+.formTitle {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: var(--space-lg);
+}
+
+.formGroup {
+    margin-bottom: var(--space-lg);
+}
+
+.label {
+    display: block;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--color-text);
+    margin-bottom: 6px;
+}
+
+.input {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    color: var(--color-text);
+    outline: none;
+    transition: border-color var(--transition-fast);
+    box-sizing: border-box;
+}
+
+.input:focus {
+    border-color: var(--color-primary-light);
+}
+
+.textarea {
+    width: 100%;
+    padding: 12px 16px;
+    border: 2px solid var(--color-border);
+    border-radius: var(--radius-md);
+    font-size: 0.9rem;
+    font-family: var(--font-body);
+    color: var(--color-text);
+    outline: none;
+    transition: border-color var(--transition-fast);
+    resize: vertical;
+    box-sizing: border-box;
+}
+
+.textarea:focus {
+    border-color: var(--color-primary-light);
+}
+
+.radioGroup {
+    display: flex;
+    gap: var(--space-lg);
+}
+
+.radioLabel {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 0.88rem;
+    color: var(--color-text);
+    cursor: pointer;
+}
+
+.formRow {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--space-md);
+}
+
+.submitBtn {
+    width: 100%;
+    padding: 14px;
+    border-radius: var(--radius-md);
+    background: var(--color-primary-gradient);
+    color: white;
+    font-weight: 700;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: all var(--transition-base);
+    border: none;
+}
+
+.submitBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(26, 31, 113, 0.3);
+}
+
+.success {
+    text-align: center;
+    padding: var(--space-xl) 0;
+}
+
+.successIcon {
+    font-size: 3rem;
+    margin-bottom: var(--space-md);
+}
+
+.successTitle {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: var(--space-sm);
+}
+
+.successDesc {
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+    margin-bottom: var(--space-xl);
+    line-height: 1.6;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.guideCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border-light);
+}
+
+.guideTitle {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: var(--space-md);
+}
+
+.guideList {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+.guideList li {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+    line-height: 1.8;
+}
+
+.statsCard {
+    background: var(--color-bg-white);
+    border-radius: var(--radius-lg);
+    padding: var(--space-lg);
+    border: 1px solid var(--color-border-light);
+    display: flex;
+    flex-direction: column;
+    gap: var(--space-md);
+}
+
+.statsItem {
+    text-align: center;
+    padding: var(--space-sm) 0;
+}
+
+.statsValue {
+    font-family: var(--font-heading);
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-primary);
+}
+
+.statsLabel {
+    font-size: 0.78rem;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 768px) {
+    .layout {
+        grid-template-columns: 1fr;
+    }
+
+    .formRow {
+        grid-template-columns: 1fr;
+    }
+
+    .heroTitle {
+        font-size: 1.6rem;
+    }
+}

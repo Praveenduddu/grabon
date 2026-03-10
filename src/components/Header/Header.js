@@ -69,9 +69,9 @@ export default function Header() {
           </div>
 
           <div className={styles.navRight}>
-            <Link href="/" className={styles.navLink}>Submit Coupon</Link>
+            <Link href="/submit-coupon" className={styles.navLink}>Submit Coupon</Link>
             <Link href="/deals" className={styles.navLink}>Deals Of The Day</Link>
-            <Link href="/" className={styles.navSeasonalBtn}>Seasonal Offers</Link>
+            <Link href="/seasonal-offers" className={styles.navSeasonalBtn}>Seasonal Offers</Link>
           </div>
         </div>
       </nav>
@@ -83,7 +83,7 @@ export default function Header() {
         <Link href="/march-sales" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>March Sales</Link>
         <Link href="/indulge" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Indulge</Link>
         <Link href="/deals" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Deals Of The Day</Link>
-        <Link href="/" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Submit Coupon</Link>
+        <Link href="/submit-coupon" className={styles.mobileNavLink} onClick={() => setMobileOpen(false)}>Submit Coupon</Link>
       </div>
     </header>
   );
